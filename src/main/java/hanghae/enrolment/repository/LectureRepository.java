@@ -7,6 +7,5 @@ import java.util.Optional;
 
 public interface LectureRepository extends JpaRepository<Lecture, Long> {
     Optional<Lecture> findById(String lectureId);
-
     int countCapacity(Long lectureId);
 }
