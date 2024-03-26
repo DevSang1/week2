@@ -5,4 +5,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface EnrollmentRepository extends JpaRepository<Enrollment, Long> {
     boolean checkUserAndLecture(Long userId, Long lectureId);
+    long countByLectureId(Long lectureId);
 }
