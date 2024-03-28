@@ -11,4 +11,5 @@ public class User {
     @Column(name = "UserId")
     private Long userId;
     private String name;
+    private String CheckEnrollment;
 }

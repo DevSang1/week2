@@ -13,7 +13,6 @@ public class Lecture {
     @Id @GeneratedValue
     @Column(name = "LectureId")
     private Long lectureId;
-    private String lectureName;
     private Integer capacity;
     private Date lectureDate;
 }

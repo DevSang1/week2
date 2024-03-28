@@ -17,4 +17,5 @@ public class Enrollment {
     @JoinColumn(name = "LectureId")
     private Long lectureId;
     private Date enrollmentDate;
+
 }
